@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+
+*{
+    font-family:'Grechen Fuemen', cursive; 
+}
+html {
+    min-height: 100%;
+}
+
+body {
+    background-color: #e0e3f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+    align-items: center;
+    color: #163d57;
+}
+
+svg {
+    background-color: #163d57;
+    padding: 10px;
+}
+
+#scribbler {
+    min-height: 60px;
+    min-width: 1200px;
+}
+cell:hover {
+    fill: #e0e3f0;
+}
+
+#tooltip {
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    margin-top: 2px;
+    color: #163d57;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+#legend {
+    color: rgb(red, green, blue);
+    font-size: 18px;
+    text-align: center;
+    min-height: 150px;
+}
+
+#title {
+    font-size: 28px;
+    color: #163d57;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
